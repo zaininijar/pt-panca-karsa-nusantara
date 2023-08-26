@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.loop-down {
+  animation: down 1s linear 2s infinite alternate-reverse;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
